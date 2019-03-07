@@ -15,6 +15,7 @@ Add the current user to the `lxd` user group.
     
 ```
 sudo snap install conjure-up --classic
+newgrp lxd
 sudo usermod -a -G lxd $(whoami)
 ```
 
